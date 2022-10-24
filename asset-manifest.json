@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/desafioNaturalPic/static/css/main.dd393c68.css",
+    "main.js": "/desafioNaturalPic/static/js/main.8bb80532.js",
+    "index.html": "/desafioNaturalPic/index.html",
+    "main.dd393c68.css.map": "/desafioNaturalPic/static/css/main.dd393c68.css.map",
+    "main.8bb80532.js.map": "/desafioNaturalPic/static/js/main.8bb80532.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd393c68.css",
+    "static/js/main.8bb80532.js"
+  ]
+}
