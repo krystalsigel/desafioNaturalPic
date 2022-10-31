@@ -9,7 +9,7 @@ import MyContext from "./MyContext";
 
 export default function App() {
   const [photos, setPhotos] = useState([])
-  const endpoint = "/fotos.json";
+  const endpoint = "/desafioNaturalPic/fotos.json";
   const getData = async () =>{
   const response = await fetch(endpoint);
   let {photos} = await response.json();
@@ -30,7 +30,7 @@ export default function App() {
   return (
     <div className="App">
       <MyContext.Provider value={{photos, setPhotos}}>
-        <BrowserRouter>
+        <BrowserRouter basename="desafioNaturalPic">
          <Navbar />
          <Routes>
              <Route path="/" element={<Home />} />
